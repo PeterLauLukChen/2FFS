@@ -1,4 +1,6 @@
-# Paper 387 Supplementary Materials
+# Numerical experiments for 2FFS
+
+2FFS has been accepted to NeurIPS 2026.
 
 This folder contains the code used to generate stochastic minimax-tree environments and benchmark 2FFS against tree-search baselines.
 
