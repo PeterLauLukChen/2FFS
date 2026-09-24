@@ -1,0 +1,54 @@
+{
+  "base_out_dir": "code/env",
+  "defaults": {
+    "num_trees": 100,
+    "seed": 20260424,
+    "beta": 0.45,
+    "slow_cost": 1,
+    "slow_sigma": 0.01,
+    "root_gap_low": 0.002,
+    "root_gap_high": 0.012,
+    "internal_gap_low": 0.0005,
+    "internal_gap_high": 0.006
+  },
+  "sweep": [
+    {
+      "name": "d4-b8-hybrid",
+      "d": 4,
+      "b": 8
+    },
+    {
+      "name": "d5-b6-hybrid",
+      "d": 5,
+      "b": 6
+    },
+    {
+      "name": "d5-b8-hybrid",
+      "d": 5,
+      "b": 8
+    },
+    {
+      "name": "d5-b10-hybrid",
+      "d": 5,
+      "b": 10,
+      "num_trees": 50
+    },
+    {
+      "name": "d6-b6-hybrid",
+      "d": 6,
+      "b": 6
+    },
+    {
+      "name": "d5-b8-beta035",
+      "d": 5,
+      "b": 8,
+      "beta": 0.35
+    },
+    {
+      "name": "d5-b8-beta055",
+      "d": 5,
+      "b": 8,
+      "beta": 0.55
+    }
+  ]
+}
